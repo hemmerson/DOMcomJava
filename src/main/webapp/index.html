@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pessoas</title>
+</head>
+<body>
+    <form>
+        <input type="hidden" id="id">
+        <input id="nome" placeholder="Nome">
+        <input id="idade" placeholder="Idade">
+        <fieldset>
+            <legend>Tipo</legend>
+            <label>JDBC
+                <input type="radio" name="tipo" id="btBanco" value="banco">
+            </label>
+            <label>XML
+                <input type="radio" name="tipo" id="btXml" value="xml">
+            </label>
+        </fieldset>
+        <input id="btCadastrar" type="submit" value="Cadastrar">
+    </form>
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Editar</th>
+            <th>Deletar</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="codigo.js"></script>
+</body>
+</html>
